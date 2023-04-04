@@ -63,3 +63,17 @@
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 20px;
+  height: calc(100vh - 64px);
+  max-width: 25vw;
+  padding: 20px;
+}
+
+.home-icon {
+  text-align: start
+}
